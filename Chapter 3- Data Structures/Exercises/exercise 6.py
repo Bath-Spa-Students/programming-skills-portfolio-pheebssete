@@ -1,33 +1,43 @@
-# guess list 
-friends = ["Leona", "Aliyah", "Gwen", "Jayde", "Daniella", "Francis"]
-print ("Official Guest List: ")
-print (friends)
+# Guess list  
+friends = ["Leona", "Aliyah", "Gwen", "Jayde"]
+msg = "Hello!, you are invited to my late night dinner at my house, "
+
+print (msg + friends [0])
+print (msg + friends [1])
+print (msg + friends [2])
+print (msg + friends [3])
+print ()
+
+# Jayde Can't Make It  
+print (friends [3] + " can't come to the late night dinner ")
+print()
+
+# I'll Invite Ken Instead 
+friends = ["Leona", "Aliyah", "Gwen", "Jayde"]
+friends[3]= "Ken" 
+
+print ("But, " + friends [3] + " can come to the late night dinner!")
 print ()
 
 # Problem 
-friends_1 = ["Leona", "Aliyah", "Gwen", "Jayde", "Daniella", "Francis"]
-print(f"Sorry {friends_1.pop(3)} , I can't invite you to the late night dinner.")
-print(f"Sorry {friends_1.pop(4)} , I can't invite you to the late night dinner.")
-print(f"Sorry {friends_1.pop(2)} , I can't invite you to the late night dinner.")
+print (f"\n Sorry {friends.pop(2)} , I can't accomodate you for the late night dinner.")
+print (f"\n Sorry {friends.pop(1)} I can't accomodate you for the late night dinner.")
 print ()
 
 # Guess who have been removed 
-removed = ["Jayde" , "Francis" , "Gwen"]
 msg = """ Due to some problem with table plan, 
 I can't invite you now to my late night dinner."""
-print (f'Sorry, {removed [0] + msg}')
-print (f'Sorry, {removed [1] + msg}')
-print (f'Soryy, {removed [2] + msg}')
-print () 
+print (msg + friends[0])
+print (msg + friends[1])
+print ()
 
 # Guess who is still invited 
-inv = ["Leona" , "Aliyah"]  
 msg = " You are still invited to my late night dinner"
-print (f'Hello!, {inv [0] + msg}')
-print (f'Hello!, {inv [1] + msg}')
+print (f'Hello!, {friends [0] + msg}')
+print (f'Hello!, {friends [1] + msg}')
+print ()
 
-# Empty the guess list 
-inv = ["Leona" , "Aliyah"]  
-del(inv[0])
-del(inv[1])
-
+# Empty the guess list
+del(friends [0])
+del(friends [0])
+print (friends)
