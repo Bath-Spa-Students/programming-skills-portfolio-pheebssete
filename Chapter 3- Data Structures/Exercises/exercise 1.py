@@ -1,8 +1,6 @@
-friends = ["Leona", "Aliyah", "Gwen", "Jayde", "Rio", "Francis"]
+names = ["Leona", "Aliyah", "Gwen", "Jayde"]
 
-print (friends [0])
-print (friends [1])
-print (friends [2])
-print (friends [3])
-print (friends [4])
-print (friends [5])
+print (names [0])
+print (names [1])
+print (names [2])
+print (names [3])
