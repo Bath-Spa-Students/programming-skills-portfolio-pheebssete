@@ -40,4 +40,4 @@ print ()
 # Empty the guess list
 del(friends [0])
 del(friends [0])
-print (friends)
+print ("List," , friends)
