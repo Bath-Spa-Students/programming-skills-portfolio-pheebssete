@@ -12,4 +12,4 @@ print ("The girl can buy" , ans , " usb sticks")
 money = ans * usb
 change = cash - money
 
-print ("The girl has change worth " , change , " pounds")
+print ("\nThe girl has change worth " , change , " pounds")
