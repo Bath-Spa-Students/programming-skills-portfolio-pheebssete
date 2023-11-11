@@ -16,3 +16,4 @@ glossary = {'integers': 'Are whole number datas.',
 
 for word, definition in glossary.items():
     print(f"\n{word.title()}: {definition}")
+    
