@@ -25,8 +25,8 @@ print (f"\n Sorry {friends.pop(1)} I can't accomodate you for the late night din
 print ()
 
 # Guess who have been removed 
-msg = """ Due to some problem with table plan, 
-I can't invite you now to my late night dinner."""
+msg = """Due to some problem with table plan, 
+ I can't invite you now to my late night dinner. """
 print (msg + friends[0])
 print (msg + friends[1])
 print ()
@@ -40,4 +40,4 @@ print ()
 # Empty the guess list
 del(friends [0])
 del(friends [0])
-print ("List," , friends)
+print ("Guess List" , friends)
